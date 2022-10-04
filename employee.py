@@ -35,8 +35,8 @@ class Employee:
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = Employee('Billie', 4000, "monthly", 1,0,0)
-print(str(billie))
-print(billie.get_pay())
+billie.__str__()
+billie.get_pay()
 
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
